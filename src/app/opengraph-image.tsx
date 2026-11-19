@@ -1,10 +1,14 @@
+
 import { ImageResponse } from "next/og";
 
-export const alt = "Rahul Chandraveer Nishad — Software Engineer & Full-Stack Developer";
+export const alt =
+  "Rahul Chandraveer Nishad — Software Engineer & Full-Stack Developer";
+
 export const size = {
   width: 1200,
   height: 630,
 };
+
 export const contentType = "image/png";
 
 export default function OpenGraphImage() {
@@ -43,7 +47,7 @@ export default function OpenGraphImage() {
             RN
           </div>
           <div style={{ fontSize: "20px", color: "#A0A8B5" }}>
-            rahulnishad.dev
+            Rahul Nishad | Portfolio
           </div>
         </div>
 
@@ -59,6 +63,7 @@ export default function OpenGraphImage() {
           >
             COMPUTER SCIENCE UNDERGRADUATE · PARUL UNIVERSITY 2027
           </div>
+
           <div
             style={{
               fontSize: "62px",
@@ -69,6 +74,7 @@ export default function OpenGraphImage() {
           >
             Rahul Chandraveer Nishad
           </div>
+
           <div
             style={{
               fontSize: "28px",
